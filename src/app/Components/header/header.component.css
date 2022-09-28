@@ -1,0 +1,30 @@
+.navbar {
+  background-color: rgb(9, 103, 49);
+  color: white;
+  flex: 1 1 auto;
+  padding-right: 25px;
+  padding-left: 20px;
+}
+.logo {
+  display: flex;
+}
+
+.navbar img {
+  height: 40px;
+}
+.navbar .signUp {
+  background-color: rgb(2, 97, 80);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .logo h1 {
+    font-size: 25px;
+  }
+  .navbar img {
+    height: 35px;
+  }
+}

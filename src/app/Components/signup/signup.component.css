@@ -1,0 +1,27 @@
+.signup-frm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  background-color: rgb(11, 117, 57);
+  padding: 40px 110px;
+  border-radius: 5px;
+  text-align: center;
+}
+small{ color: rgb(212, 11, 11);}
+.signup-frm h3 {
+  font-weight: 600;
+  color: rgb(13, 53, 37);
+}
+
+.btn {
+  background-color: rgb(7, 78, 47);
+  color: #fff;
+  padding: 0px 30px;
+}
+.btn:hover {
+  color: #fff;
+  background-color: rgb(5, 109, 74);
+}
+
